@@ -1,0 +1,35 @@
+/* Empty. Add your own CSS if you like */
+.startbut{
+
+	width:300px;
+	margin-top:10px;
+	background-color:#FFAA00 !important;
+
+}
+#myview{
+	background-color:#000000 !important;
+}
+.mylist{
+	text-align: center;
+	margin-top:35%;
+}
+.mynav{
+	background-color:#FFAA00;
+}
+#inbut{
+	width:355px;
+}
+.myiconitem{
+	
+	color: #FFAA00 !important;
+
+}
+.ourbar{
+	background-color:#ffa500 ;
+}
+.listli{
+	background-color:#000000;
+}
+.listh{
+	color: #FFffff !important;
+}

@@ -1,0 +1,42 @@
+<ion-view  style="background-color: #000000;">
+        
+        
+       <ion-content has-header="true" padding="true" ng-controller="celebsCtrl">
+        <div class="row" ng-repeat="row in items | inSlicesOf:3"> 
+          <div class="col col-33" ng-repeat="item in row">
+          	<!--<div class="list card " width="100px" height="100px">
+          	 <div class="item item-image">
+            <img ng-src="{{item}}" width="100px" height="100px" >
+            </div>
+             <a class="item item-icon-left energized" href="#">
+			    <i class="icon ion-music-note"></i>
+			    
+			  </a>
+
+            </div>-->
+            
+            <ion-card width="100px" height="500px"> 
+				  
+				  <ion-card-content height="300px" style="background-color:#ffffff">
+				  <div style="background-color:#FFAA00" width="100px" height="500px">
+				  	<img ng-src="{{item}}" width="100px" height="100px" style="padding: 0px;" />
+            <span><i class="icon ion-music-note royal"></i><p>King Saha</p></span>
+				  	 
+          
+          
+        
+				  </div>
+				 
+				  
+				  </ion-card-content>
+				</ion-card>
+
+            </div>
+            <!--<hr/>
+            <div>even: {{$even}} {{image}}</div>-->
+          </div>
+        </div>
+    
+
+		</ion-content>
+</ion-view>

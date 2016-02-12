@@ -1,0 +1,129 @@
+[
+{
+ stagename : "Radio",
+ pictureurl: "img/saha.jpg",
+ fancount : 0,
+ biodata:
+ 		{ 
+		 	name : "ssekibogo",
+		 	dob   : "22/02/1986",
+		 	biography : "i am a very peaceful person"
+
+
+ 		}
+ 
+
+
+
+},
+
+{
+	stagename : "weasel",
+ pictureurl: "img/saha.jpg",
+ fancount : 0,
+ biodata:
+ 		{ 
+		 	name : "mayanja",
+		 	dob   : "22/02/1989",
+		 	biography : "i am a very peaceful person"
+
+
+ 		}
+
+},
+
+{
+	stagename : "chameleone",
+ pictureurl: "img/saha.jpg",
+ fancount : 0,
+ biodata:
+ 		{ 
+		 	name : "joseph mayanja",
+		 	dob   : "22/02/1976",
+		 	biography : "i am a very peaceful person"
+
+
+ 		}
+
+			
+},
+{
+	stagename : "Diamond platinumz",
+ pictureurl: "img/saha.jpg",
+ fancount : 0,
+ biodata:
+ 		{ 
+		 	name : "Naseeb",
+		 	dob   : "22/02/1983",
+		 	biography : "i am a very peaceful person"
+
+
+ 		}
+
+
+},
+{
+	stagename : "Ziza bafana",
+ pictureurl: "img/saha.jpg",
+ fancount : 0,
+ biodata:
+ 		{ 
+		 	name : "Bafana",
+		 	dob   : "22/02/1991",
+		 	biography : "i am a very peaceful person"
+
+
+ 		}
+
+},
+
+{
+	stagename : "Sudir Rupareria",
+ pictureurl: "img/saha.jpg",
+ fancount : 0,
+ biodata:
+ 		{ 
+		 	name : "sudir singh Rupareria.",
+		 	dob   : "22/02/1986",
+		 	biography : "i do my own business in march "
+
+
+ 		}
+
+
+
+},
+{
+	stagename : "alikiba",
+ pictureurl: "img/saha.jpg",
+ fancount : 100,
+ biodata:
+ 		{ 
+		 	name : "Ali saleh Kiba",
+		 	dob   : "22/02/1984",
+		 	biography : "i am a very peaceful person"
+
+
+ 		}
+
+},
+
+
+{
+	stagename : "King saha",
+ pictureurl: "img/saha.jpg",
+ fancount : 200,
+ biodata:
+ 		{ 
+		 	name : "saha",
+		 	dob   : "22/02/1990",
+		 	biography : "i am a very melodius person"
+
+
+ 		}
+
+}
+
+
+
+]

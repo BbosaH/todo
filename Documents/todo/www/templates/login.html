@@ -1,0 +1,65 @@
+<ion-view >
+        <ion-content >
+        <form ng-controller="logincontroller as logctrl" ng-submit="logctrl.login(logctrl.username,logctrl.password)" name="form" novalidate>
+
+        <div class="list mylist" >
+
+       		<div class = "card">
+	    		
+			    <ion-card-content>
+			    	<div class="list">
+			    		<!--get Username-->
+						  <label class="item item-input">
+						    <span class="input-label">Phonenumber</span>
+						    <input type="text" name='uname' ng-model='logctrl.goinglogmodel.phonenumber'
+						    required />
+						  </label>
+						  <!--validate username-->
+						  <span ng-style="{color:'#FF9900'}" ng-show="form.uname.$dirty && form.uname.$invalid">
+					  		<span ng-show="form.uname.$error.required">
+					  			please enter username
+					  		</span>
+
+					  		
+					  		
+					  	</span>
+						  <!--get password-->
+						  <label class="item item-input">
+						    <span class="input-label">Password</span>
+						    <input type="password" name='pass' ng-model='logctrl.goinglogmodel.password' ng-minlength=4 required/>
+						  </label>
+						  <!--validate password-->
+						  <span ng-style="{color:'#FF9900'}" ng-show="form.pass.$dirty && form.pass.$invalid">
+					  		<span ng-show="form.pass.$error.required">
+					  			please enter password
+					  		</span>
+
+					  		<span ng-show="form.pass.$error.minlength">
+					  			password too short
+					  		</span>
+
+					  		<span ng-show="form.pass.$error.maxlength">
+					  		firstname too long
+					  		</span>
+					  			
+					  		
+					  	</span>
+					</div>
+						
+			      
+			    </ion-card-content>
+
+   		 	</div>
+   		 	
+			<input type="submit" class="button button-dark startbut" name='submit' id="inbut" value="sign in" ng-disabled="form.uname.$invalid || form.pass.$invalid "/>
+
+			<a class='ourbar' href="#/signup">click here to signup<a>
+
+		</div >
+		</form>
+		<!--<img src="img/weed.png" style="margin-left:60px;"/>-->
+			
+		</ion-content>
+</ion-view>
+
+	

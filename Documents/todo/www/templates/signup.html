@@ -1,0 +1,91 @@
+<ion-view >
+        <ion-content>
+        <form ng-controller="signupcontroller as signup" ng-submit="signup.submitform(form)" name="form" novalidate>
+
+        <div class="list mylist">
+        			<div class="mygenderdiv" style="text-align:left;margin-left:10px;color:#FFAA00;">
+					   <p> Gender</p>
+					</div>
+        			
+       				
+	    			<div class="list list-inset">
+						  <ion-radio ng-model="signup.goingmodel.gender" ng-value="true">Male</ion-radio>
+						  <ion-radio ng-model="signup.goingmodel.gender" ng-value="false">Female</ion-radio>
+					</div>
+			    
+			    	<div class="list list-inset">
+			    	
+			    		<!--get firstname-->
+					  <label class="item item-input">
+					    <input type="text" ng-model='signup.goingmodel.phonenumber' 
+					    name='phone'
+					    placeholder="PhoneNumber" 
+					    ng-maxlength=20
+					    ng-minlength=2
+					    required/>
+					  </label>
+					  	<!--validate firstname-->
+					  	<span ng-style="{color:'#FF9900'}" ng-show="form.phone.$dirty && form.phone.$invalid">
+					  		<span ng-show="form.phone.$error.required">
+					  			please enter username
+					  		</span>
+
+					  		<span ng-show="form.phone.$error.minlength">
+					  			firstname too short
+					  		</span>
+
+					  		<span ng-show="form.phone.$error.maxlength">
+					  		firstname too long
+					  		</span>
+					  			
+					  		
+					  	</span>
+					  	
+					  		
+					  	
+					  
+					  
+						
+					  <!--get password-->
+					  <label class="item item-input">
+					    <input type="password" ng-model='signup.goingmodel.password' name='pass' placeholder="Password"
+					    ng-minlength=4
+					    required/>
+					  </label>
+					  <!--validate password-->
+					  <span ng-style="{color:'#FF9900'}" ng-show="form.pass.$dirty && form.pass.$invalid">
+						  		<span ng-show="form.pass.$error.required">
+						  			please enter password
+						  		</span>
+
+						  		<span ng-show="form.pass.$error.minlength">
+						  			password too short
+						  		</span>
+
+					  		
+					  		</span>
+					  <label class="item item-input">
+					    <input type="password" ng-model = 'signup.goingmodel.confirm' name='confirm' placeholder="Confirm"/>
+					  </label>
+					  
+					</div>
+						
+			      
+			    
+   		 	
+   		 	 <input type="submit" class="button button-dark startbut" name='submit' id="inbut" value="sign up" ng-disabled="form.fname.$invalid || form.lname.$invalid || form.mail.$invalid || form.pass.$invalid || form.confirm.$invalid" />
+   		 	 
+
+						  
+		</div >
+
+		<!--<button type="submit" class="button button-dark startbut" onclick="alert('maimmuuna');">sign up</button>-->
+		<h2>{{datas}}</h2>
+		</form>
+
+		<!--<img src="img/weed.png" style="margin-left:60px;"/>-->
+			
+		</ion-content>
+</ion-view>
+
+	

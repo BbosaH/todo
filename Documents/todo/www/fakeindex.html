@@ -1,0 +1,75 @@
+<div style="width:100%;height:20px;padding:20px;backgroud-color:#D2D2D2;position:absolute">
+   <ion-icon heart></ion-icon>
+   <h1>lorem audi</h1>
+   <ion-card>
+  <ion-card-header>
+    Explore Nearby
+  </ion-card-header>
+
+  <ion-list>
+    <button  class="button button-assertive">
+      <icon cart item-left></icon>
+      Shopping
+    </button>
+
+   <div class = "card">
+    <img src="img/ionic.png"/>
+    <ion-card-content>
+      <h2 class="card-title">
+        Nine Inch Nails Live
+      </h2>
+
+      <p>
+        The most popular industrial group ever, and largely
+        responsible for bringing the music to a mass audience.
+      </p>
+    </ion-card-content>
+    </div>
+ </div>
+ 
+        <ion-list ng-controller="toDoListController">
+          <ion-item ng-repeat="item in toDoListItems">
+            {{item.task}}
+          </ion-item>
+        </ion-list>
+        <ion-pane>
+      <ion-header-bar align-title="left" class="bar-positive">
+
+        <h1 class="title">My ToDo List</h1>
+
+        <div class="buttons">
+          <button class="button" ng-click="openModal()">Add</button>
+        </div>
+      </ion-header-bar>
+      <ion-content>
+       
+      </ion-content>
+    </ion-pane>
+
+    <!-- modal
+
+      <script id="modal.html" type="text/ng-template">
+      <div class="modal">
+
+        <div class="bar bar-header bar-calm">
+          <button class="button" ng-click="closeModal()">back</button>
+          <h1 class="title">Add Item</h1>
+        </div>
+        <br></br>
+        <br></br>
+        <form ng-submit="AddItem(data)">
+          <div class="list">
+            <div class="list list-inset">
+              <label class="item item-input">
+                <input type="text" placeholder="ToDo Item" ng-model="data.newItem">
+              </label>
+            </div>
+            <button class="button button-block button-positive" type="submit">
+              Add Item
+            </button>
+          </div>
+        </form>
+
+      </div>
+</script>
+    -->
